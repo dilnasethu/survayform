@@ -1,0 +1,67 @@
+/* h1{
+    /* color: rgb(224, 106, 177); */
+    /* color: chartreuse !important; */
+/* } */
+
+/* descendent selector */
+
+ /* div p{
+    background-color: rgb(223, 230, 26);
+ } */
+ 
+
+ /* child selector */
+ /* div>p{
+    background-color: crimson;
+ } */
+
+ /* adjacent sibiling selector */
+ /* div+p{
+    background-color: darkseagreen;
+ } */
+
+ /* General sibling selector */
+ /* div~p{
+    background-color: greenyellow;
+ } */
+ /* a:link{
+    color: darkgreen;
+ }
+ a:visited{
+    color: darksalmon;
+ }
+ a:hover{
+    color: gold;
+ }
+ a:active{
+    color: magenta;
+ } */
+ img{
+    opacity:0.3
+ }
+ img:hover{
+    opacity:1
+ }
+ /* p{
+    display: none;
+ }
+ div:hover p{
+    display: block;
+ } */
+ p::first-line{
+    color: rgb(255, 13, 0);
+ }
+ p::first-letter{
+    font-weight: bold;
+    color: darkslateblue;
+ }
+ p::after{
+    content:'🤩';
+ }
+ p::before{
+    content:'🤫'
+ }
+ p::selection{
+    background-color: aquamarine;
+    color: rgb(236, 7, 186);
+ }
